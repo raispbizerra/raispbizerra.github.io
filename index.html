@@ -7,119 +7,124 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <script src="//code.jivosite.com/widget.js" data-jv-id="Yfytkx4PBV" async></script>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="grey darken-4" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="index.html" class="brand-logo">RAÍ BIZERRA</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#about">SOBRE</a></li>
+<!--        <li><a href="#">HABILIDADES</a></li>-->
+        <li><a href="#education">EDUCAÇÃO</a></li>
+        <li><a href="#portfolio">PORTFÓLIO</a></li>
+        <li><a href="#contact">CONTATO</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+      <ul id="nav-mobile" class="sidenav white-text">
+        <li><a href="#about">SOBRE</a></li>
+<!--        <li><a href="#">HABILIDADES</a></li>-->
+        <li><a href="#education">EDUCAÇÃO</a></li>
+        <li><a href="#portfolio">PORTFÓLIO</a></li>
+        <li><a href="#contact">CONTATO</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
     </div>
   </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+  <br><br>
+  <div id="about" class="section center scrollspy">
+    <div class="container row">
+      <div class="col l6 s12">
+        <div class="row">
+          <img src="profile.png" class="responsive-img" />
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a class="waves-effect waves-light btn amber accent-4 black-text" href="cv_rspb.pdf" download>CV <i class="fas fa-download"></i></a>
         </div>
-        <br><br>
-
       </div>
+      
+      <div class="col l6 s12">
+        <h4 class="header black-text amber accent-4">SOBRE</h4>
+        <div class="row center">
+          <p class="header col s12 light">Raí Sales Pereira Bizerra, 25 anos, natural de Ipiaú-BA. Graduando em Ciência da Computação na Universidade Estadual de Santa Cruz (UESC), onde sou bolsista de Iniciação Científica e atuo como pesquisador e desenvolvedor no Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas (NBCGIB). </p>
+        </div>
+        <div class="row center">
+          <a href="https://github.com/raispbizerra"><div class="col s3"><h4><i class="fab fa-github"></i></h4></div></a>
+          <a href="https://www.linkedin.com/in/raispbizerra"><div class="col s3"><h4><i class="fab fa-linkedin"></i></h4></div></a>
+          <a href="https://www.instagram.com/raispbizerra"><div class="col s3"><h4><i class="fab fa-instagram"></i></h4></div></a>
+          <a href="https://www.facebook.com/raispbizerra"><div class="col s3"><h4><i class="fab fa-facebook"></i></h4></div></a>
+        </div>
+      </div>
+
+      <br><br>
+
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
+  <div id="education" class="section scrollspy">
+    <div class="container row">
+      <div class="col s12">
+        <h4 class="center header black-text amber accent-4">EDUCAÇÃO</h4>
+        <div class="center">
+              <img src="uesc.jpeg" alt="" class="col s2 l2">
+              <p class="title">Bacharelado em Ciência da Computação</p>
+              <p>2015 - 2020</p>
+              <p>UESC</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div id="portfolio" class="section scrollspy">
+    <div class="container row">
+      <div class="col s12">
+        <h4 class="center header black-text amber accent-4">PORTFÓLIO</h4>
+          <div class="center card horizontal">
+            <div class="card-image valign-wrapper">
+            <img src="ethel.svg" class="center">
+<!--            <span class="card-title">2017 - </span>-->
+            </div>
+            <div class="card-content">
+            <p>Sistema para instrumentalização de exames médicos.<br>2017 - Atualmente</p>
+            </div>
+            <div class="card-action">
+            <a href="https://github.com/raispbizerra/ethel"><h5>Link do repositório <i class="fab fa-github"></i></h5></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
   <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
+    <div id="contact" class="section scrollspy">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <div class="col s12">
+           <h4 class="center header black-text amber accent-4">CONTATO</h4>
+          <div class="col s12 l6">
+          <ul>
+            <li class="row"><a href="https://goo.gl/maps/X1pKwg2mT6Jy2pMQ9"><h4><i class="fas fa-map-marker-alt col s2"></i></h4>Campus Soane Nazaré de Andrade, Rod. Jorge Amado, Km 16 - Salobrinho, Ilhéus - BA, 45662-900
+            </a></li>
+            <li class="row"><a href="https://api.whatsapp.com/send?phone=5573991410362"><h4><i class="fab fa-whatsapp col s2"></i></h4>+55 (73) 9 91410362</a>
+            </li>
+            <li class="row"><a href="mailto:raispbizerra@gmail.com"><h4><i class="far fa-envelope col s2"></i></h4>raispbizerra@gmail.com</a>
+            </li>
+          </ul>
+          </div>
+          <div class="col s12 l6 center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.497328417176!2d-39.17443798515732!3d-14.797320439677398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x739a9cffe548e19%3A0xe91ca23dc7294b8!2sUESC%20%E2%80%93%20Universidade%20Estadual%20De%20Santa%20Cruz!5e0!3m2!1spt-BR!2sbr!4v1569551201276!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
         </div>
       </div>
 
     </div>
   </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
+  <footer class="page-footer amber accent-4">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -160,6 +165,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
 
   </body>
 </html>

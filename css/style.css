@@ -6,18 +6,45 @@
  * Made By MaterializeCSS.com
  */
 
+/*
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
+*/
+
+/*
+html {
+  scroll-behavior: smooth;
+}
+*/
+
+a{
+  color: black;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, .brand-logo, .nav-wrapper a{
+  font-family: Oswald;
+}
+p, li{
+  font-family: Montserrat;
+}
 
 p {
   line-height: 2rem;
+  text-align: justify;
 }
 
+/*
 .sidenav-trigger {
   color: #26a69a;
 }
+*/
 
 .parallax-container {
   min-height: 380px;
