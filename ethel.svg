@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="94.150993mm"
-   height="24.22435mm"
-   viewBox="0 0 94.150993 24.22435"
+   width="100mm"
+   height="30mm"
+   viewBox="0 0 100 30"
    version="1.1"
    id="svg8"
    sodipodi:docname="ethel.svg"
@@ -68,9 +68,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51942644"
-     inkscape:cx="-410.8767"
-     inkscape:cy="114.17786"
+     inkscape:zoom="1.0133542"
+     inkscape:cx="223.89794"
+     inkscape:cy="-86.205721"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -100,69 +100,79 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="ethel"
-     transform="translate(-72.041786,-151.46874)" />
+     transform="translate(-69.117279,-148.58092)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="yang"
-     transform="translate(-72.041786,-151.46874)" />
+     transform="translate(-69.117279,-148.58092)" />
   <g
      inkscape:label="yin"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-72.041786,-151.46874)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:25.98250961px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64956278"
-       x="102.2758"
-       y="171.62251"
-       id="text4556"><tspan
-         sodipodi:role="line"
-         id="tspan4554"
-         x="102.2758"
-         y="171.62251"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000;stroke-width:0.64956278">ETHEL</tspan></text>
+     transform="translate(-69.117279,-148.58092)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.01392365;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect2084"
+       width="100"
+       height="30"
+       x="69.117279"
+       y="148.58092" />
     <g
-       id="g843"
-       transform="matrix(0.56470828,0,0,0.56470828,36.536872,71.20542)">
+       id="g2095">
+      <text
+         id="text4556"
+         y="171.62251"
+         x="102.2758"
+         style="font-style:normal;font-weight:normal;font-size:25.98250961px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64956278"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000;stroke-width:0.64956278"
+           y="171.62251"
+           x="102.2758"
+           id="tspan4554"
+           sodipodi:role="line">ETHEL</tspan></text>
       <g
-         transform="matrix(0.50000024,0,0,0.50000024,31.436495,98.260862)"
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="/home/rai/eclipse-workspace/Ethel/interface/logo.png"
-         id="g910">
-        <path
-           transform="matrix(2.616231,0,0,2.616231,-184.92483,-496.68112)"
-           sodipodi:nodetypes="cscssccsccc"
-           style="fill:url(#radialGradient6158-6);fill-opacity:1;stroke-width:0.26458335"
-           d="m 104.56268,239.03503 c 1.57649,0.7856 2.31729,1.5225 3.99936,3.97832 0.89524,1.30705 1.74935,2.17023 2.93155,2.96264 1.97492,1.32378 3.32126,1.75541 5.4755,1.75541 3.15655,0 5.20457,-1.12063 7.16969,-3.92309 1.11328,-1.58765 1.86608,-2.11278 2.48258,-1.73176 1.05142,0.64981 -1.07724,5.90329 -3.47722,8.58173 -1.83919,2.05258 -4.77421,3.94487 -7.46343,4.81188 -4.1616,1.34171 -9.5082,0.73679 -13.29241,-1.50392 -3.83521,-2.27089 -6.51241,-6.09493 -6.52832,-9.32486 -0.0237,-4.8055 4.48333,-7.70895 8.7027,-5.60635 z"
-           id="path4583-3"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         inkscape:export-ydpi="96"
-         inkscape:export-xdpi="96"
-         inkscape:export-filename="/home/rai/eclipse-workspace/Ethel/interface/logo.png"
-         transform="matrix(1.3081161,0,0,1.3081161,-61.025964,-150.07982)"
-         id="g6356">
-        <path
-           inkscape:connector-curvature="0"
-           id="path4573-5-8"
-           d="m 126.91991,242.62814 c 9.9e-4,0.45994 -0.28437,1.62112 -0.63414,2.58038 -3.15586,5.55545 -12.4916,5.24309 -15.44113,0.39461 4.28365,2.94281 9.39114,3.1093 12.73168,-1.15284 1.62808,-2.34641 3.34025,-3.35714 3.34359,-1.82215 z"
-           style="fill:#500092;fill-opacity:1;stroke-width:0.26458338"
-           sodipodi:nodetypes="ccccc" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4583"
-           d="m 117.07282,240.52597 c -1.57649,-0.7856 -2.31729,-1.5225 -3.99936,-3.97832 -0.89524,-1.30705 -1.74935,-2.17023 -2.93155,-2.96264 -1.97492,-1.32378 -3.32126,-1.75541 -5.4755,-1.75541 -3.15655,0 -5.204572,1.12063 -7.169692,3.92309 -1.11328,1.58765 -1.86608,2.11278 -2.48258,1.73176 -1.05142,-0.64981 1.07724,-5.90329 3.47722,-8.58173 1.839192,-2.05258 4.774212,-3.94487 7.463432,-4.81188 4.1616,-1.34171 9.5082,-0.73679 13.29241,1.50392 3.83521,2.27089 6.51241,6.09493 6.52832,9.32486 0.0237,4.8055 -4.48333,7.70895 -8.7027,5.60635 z"
-           style="fill:url(#radialGradient6158);fill-opacity:1;stroke-width:0.26458335"
-           sodipodi:nodetypes="cscssccsccc" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4573-5"
-           d="m 94.715588,236.93286 c -9.84e-4,-0.45994 0.284373,-1.62112 0.634145,-2.58038 3.155858,-5.55545 12.491597,-5.24309 15.441127,-0.39461 -4.28365,-2.94281 -9.39114,-3.1093 -12.731679,1.15284 -1.628084,2.34641 -3.340252,3.35714 -3.343593,1.82215 z"
-           style="fill:#500092;fill-opacity:1;stroke-width:0.26458338"
-           sodipodi:nodetypes="ccccc" />
+         transform="matrix(0.56470828,0,0,0.56470828,36.536872,71.20542)"
+         id="g843">
+        <g
+           id="g910"
+           inkscape:export-filename="/home/rai/eclipse-workspace/Ethel/interface/logo.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           transform="matrix(0.50000024,0,0,0.50000024,31.436495,98.260862)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4583-3"
+             d="m 104.56268,239.03503 c 1.57649,0.7856 2.31729,1.5225 3.99936,3.97832 0.89524,1.30705 1.74935,2.17023 2.93155,2.96264 1.97492,1.32378 3.32126,1.75541 5.4755,1.75541 3.15655,0 5.20457,-1.12063 7.16969,-3.92309 1.11328,-1.58765 1.86608,-2.11278 2.48258,-1.73176 1.05142,0.64981 -1.07724,5.90329 -3.47722,8.58173 -1.83919,2.05258 -4.77421,3.94487 -7.46343,4.81188 -4.1616,1.34171 -9.5082,0.73679 -13.29241,-1.50392 -3.83521,-2.27089 -6.51241,-6.09493 -6.52832,-9.32486 -0.0237,-4.8055 4.48333,-7.70895 8.7027,-5.60635 z"
+             style="fill:url(#radialGradient6158-6);fill-opacity:1;stroke-width:0.26458335"
+             sodipodi:nodetypes="cscssccsccc"
+             transform="matrix(2.616231,0,0,2.616231,-184.92483,-496.68112)" />
+        </g>
+        <g
+           id="g6356"
+           transform="matrix(1.3081161,0,0,1.3081161,-61.025964,-150.07982)"
+           inkscape:export-filename="/home/rai/eclipse-workspace/Ethel/interface/logo.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96">
+          <path
+             sodipodi:nodetypes="ccccc"
+             style="fill:#500092;fill-opacity:1;stroke-width:0.26458338"
+             d="m 126.91991,242.62814 c 9.9e-4,0.45994 -0.28437,1.62112 -0.63414,2.58038 -3.15586,5.55545 -12.4916,5.24309 -15.44113,0.39461 4.28365,2.94281 9.39114,3.1093 12.73168,-1.15284 1.62808,-2.34641 3.34025,-3.35714 3.34359,-1.82215 z"
+             id="path4573-5-8"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="cscssccsccc"
+             style="fill:url(#radialGradient6158);fill-opacity:1;stroke-width:0.26458335"
+             d="m 117.07282,240.52597 c -1.57649,-0.7856 -2.31729,-1.5225 -3.99936,-3.97832 -0.89524,-1.30705 -1.74935,-2.17023 -2.93155,-2.96264 -1.97492,-1.32378 -3.32126,-1.75541 -5.4755,-1.75541 -3.15655,0 -5.204572,1.12063 -7.169692,3.92309 -1.11328,1.58765 -1.86608,2.11278 -2.48258,1.73176 -1.05142,-0.64981 1.07724,-5.90329 3.47722,-8.58173 1.839192,-2.05258 4.774212,-3.94487 7.463432,-4.81188 4.1616,-1.34171 9.5082,-0.73679 13.29241,1.50392 3.83521,2.27089 6.51241,6.09493 6.52832,9.32486 0.0237,4.8055 -4.48333,7.70895 -8.7027,5.60635 z"
+             id="path4583"
+             inkscape:connector-curvature="0" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             style="fill:#500092;fill-opacity:1;stroke-width:0.26458338"
+             d="m 94.715588,236.93286 c -9.84e-4,-0.45994 0.284373,-1.62112 0.634145,-2.58038 3.155858,-5.55545 12.491597,-5.24309 15.441127,-0.39461 -4.28365,-2.94281 -9.39114,-3.1093 -12.731679,1.15284 -1.628084,2.34641 -3.340252,3.35714 -3.343593,1.82215 z"
+             id="path4573-5"
+             inkscape:connector-curvature="0" />
+        </g>
       </g>
     </g>
   </g>
